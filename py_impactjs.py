@@ -166,4 +166,4 @@ def send_game_file(game, *pathparts):
 
 # Run dev server
 if __name__ == '__main__':
-    app.run('localhost', port = 80, debug = True)
+    app.run('localhost', port = 8080, debug = True)
